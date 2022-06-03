@@ -1,0 +1,256 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>qrc;rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+    </Filter>
+    <Filter Include="Translation Files">
+      <UniqueIdentifier>{639EADAA-A684-42e4-A9AD-28FC9BCB8F7C}</UniqueIdentifier>
+      <Extensions>ts</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Forms">
+      <UniqueIdentifier>{4afe4a89-feaf-478b-9134-ef3d539ffd57}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameObjects">
+      <UniqueIdentifier>{a1161d55-ccfe-4e2f-87bf-3aa590be57d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameField">
+      <UniqueIdentifier>{8668a387-d670-443d-a331-e996f387d930}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Forms">
+      <UniqueIdentifier>{540cf8f6-60de-48cc-b907-02c448fb9571}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GameObjects">
+      <UniqueIdentifier>{7e822e68-9035-4cf5-9462-181227abcd26}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GameField">
+      <UniqueIdentifier>{c4f63820-257f-4f19-8b73-28dfa2a1af25}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Includes">
+      <UniqueIdentifier>{554d4640-e341-4d5c-b8f4-d5a16253d720}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\OtherObjects">
+      <UniqueIdentifier>{5651c78c-5b2c-4e91-9cb9-5811bb5eda46}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\OtherObjects">
+      <UniqueIdentifier>{ca840fd8-d92f-4c04-a65b-9cf8108cc079}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Brick">
+      <UniqueIdentifier>{3a26a3d4-02cb-4888-ba8d-eac7bdcc1d4b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Tank">
+      <UniqueIdentifier>{249a0ddb-a607-4bb8-a9ae-ed24c1670b23}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Shell">
+      <UniqueIdentifier>{74ccd8bb-13f8-4f3d-84f5-d4606ddf0e8c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Base">
+      <UniqueIdentifier>{24e4b549-ba54-4a31-9ff6-e8bb93ef4323}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Another">
+      <UniqueIdentifier>{7c1f0909-3168-49f4-ac09-54a6bc5551c0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <QtRcc Include="TanksGame.qrc">
+      <Filter>Resource Files</Filter>
+    </QtRcc>
+    <QtUic Include="TanksGame.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GameForm.cpp">
+      <Filter>Source Files\Forms</Filter>
+    </ClCompile>
+    <ClCompile Include="TanksGame.cpp">
+      <Filter>Source Files\Forms</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>Source Files\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="GameField.cpp">
+      <Filter>Source Files\GameField</Filter>
+    </ClCompile>
+    <ClCompile Include="INCLUDES_QT.h">
+      <Filter>Header Files\Includes</Filter>
+    </ClCompile>
+    <ClCompile Include="PVEGameField.cpp">
+      <Filter>Source Files\GameField</Filter>
+    </ClCompile>
+    <ClCompile Include="TankObject.cpp">
+      <Filter>Source Files\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="Sprite.cpp">
+      <Filter>Source Files\OtherObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="ControlKeys.cpp">
+      <Filter>Source Files\OtherObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="ShellObject.cpp">
+      <Filter>Source Files\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectDestroyEvent.cpp">
+      <Filter>Source Files\OtherObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="ConstructorGameField.cpp">
+      <Filter>Source Files\GameField</Filter>
+    </ClCompile>
+    <ClCompile Include="EnvironmentObject.cpp">
+      <Filter>Source Files\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="ConForm.cpp">
+      <Filter>Source Files\Forms</Filter>
+    </ClCompile>
+    <ClCompile Include="PVEMenuForm.cpp">
+      <Filter>Source Files\Forms</Filter>
+    </ClCompile>
+    <ClCompile Include="InfoPanel.cpp">
+      <Filter>Source Files\OtherObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="PVPGameField.cpp">
+      <Filter>Source Files\GameField</Filter>
+    </ClCompile>
+    <ClCompile Include="Help.cpp">
+      <Filter>Source Files\OtherObjects</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="GameForm.h">
+      <Filter>Header Files\Forms</Filter>
+    </QtMoc>
+    <QtMoc Include="TanksGame.h">
+      <Filter>Header Files\Forms</Filter>
+    </QtMoc>
+    <QtMoc Include="GameField.h">
+      <Filter>Header Files\GameField</Filter>
+    </QtMoc>
+    <QtMoc Include="GameObject.h">
+      <Filter>Header Files\GameObjects</Filter>
+    </QtMoc>
+    <QtMoc Include="TankObject.h">
+      <Filter>Header Files\GameObjects</Filter>
+    </QtMoc>
+    <QtMoc Include="ConForm.h">
+      <Filter>Header Files\Forms</Filter>
+    </QtMoc>
+    <QtMoc Include="PVEMenuForm.h">
+      <Filter>Header Files\Forms</Filter>
+    </QtMoc>
+    <QtMoc Include="PVEGameField.h">
+      <Filter>Header Files\GameField</Filter>
+    </QtMoc>
+    <QtMoc Include="Help.h">
+      <Filter>Header Files\OtherObjects</Filter>
+    </QtMoc>
+    <QtMoc Include="ConstructorGameField.h">
+      <Filter>Header Files\GameField</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <QtUic Include="GameForm.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="ConForm.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="PVEMenu.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="Help.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Sprite.h">
+      <Filter>Header Files\OtherObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="ControlKeys.h">
+      <Filter>Header Files\OtherObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="ShellObject.h">
+      <Filter>Header Files\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectDestroyEvent.h">
+      <Filter>Header Files\OtherObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="EnvironmentObject.h">
+      <Filter>Header Files\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="InfoPanel.h">
+      <Filter>Header Files\OtherObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="PVPGameField.h">
+      <Filter>Header Files\GameField</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="sprites\brick\brickMainSkin.png">
+      <Filter>Resource Files\Brick</Filter>
+    </Image>
+    <Image Include="sprites\brick\waterMainSkin.png">
+      <Filter>Resource Files\Brick</Filter>
+    </Image>
+    <Image Include="sprites\brick\leavesMainSkin.png">
+      <Filter>Resource Files\Brick</Filter>
+    </Image>
+    <Image Include="sprites\tank\deadTankSkin.png">
+      <Filter>Resource Files\Tank</Filter>
+    </Image>
+    <Image Include="sprites\tank\enemyTankSkin.png">
+      <Filter>Resource Files\Tank</Filter>
+    </Image>
+    <Image Include="sprites\tank\mainTankSkin.png">
+      <Filter>Resource Files\Tank</Filter>
+    </Image>
+    <Image Include="sprites\shell\shellSprite.png">
+      <Filter>Resource Files\Shell</Filter>
+    </Image>
+    <Image Include="sprites\base\enemyBaseMainSkin.png">
+      <Filter>Resource Files\Base</Filter>
+    </Image>
+    <Image Include="sprites\base\myBaseMainSkin.png">
+      <Filter>Resource Files\Base</Filter>
+    </Image>
+    <Image Include="sprites\brick\brickMainSkinV.png">
+      <Filter>Resource Files\Brick</Filter>
+    </Image>
+    <Image Include="sprites\another\roller.png">
+      <Filter>Resource Files\Another</Filter>
+    </Image>
+    <Image Include="sprites\another\emptySkin.png">
+      <Filter>Resource Files\Another</Filter>
+    </Image>
+    <Image Include="sprites\brick\wallMainSkinV.png">
+      <Filter>Resource Files\Brick</Filter>
+    </Image>
+    <Image Include="sprites\brick\wallMainSkin.png">
+      <Filter>Resource Files\Brick</Filter>
+    </Image>
+    <Image Include="sprites\tank\botFastTank.png">
+      <Filter>Resource Files\Tank</Filter>
+    </Image>
+    <Image Include="sprites\tank\botHeavyTank.png">
+      <Filter>Resource Files\Tank</Filter>
+    </Image>
+    <Image Include="sprites\tank\botTank.png">
+      <Filter>Resource Files\Tank</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

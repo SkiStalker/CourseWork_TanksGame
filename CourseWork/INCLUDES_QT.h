@@ -1,0 +1,27 @@
+#include <QWidget>
+#include <QDebug>
+#include <QRect>
+#include <QKeyEvent>
+#include <QMainWindow>
+#include <QtWidgets/QMainWindow>
+#include <QtWidgets/QApplication>
+#include <QTimer>
+#include <QPainter>
+#include <QVector>
+#include <QImage>
+#include <QPoint>
+#include <QMutex>
+#include <QGraphicsScene>
+#include <QGraphicsView>
+#include <QGraphicsItem>
+#include <QStyleOptionGraphicsItem>
+#include <QMoveEvent>
+#include <QGraphicsSceneMouseEvent>
+#include <QMessageBox>
+#include <QDataStream>
+#include <QFile>
+#include <QFileDialog>
+#include <QException>
+#include <QPointer>
+
+#include <exception>

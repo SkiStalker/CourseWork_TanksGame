@@ -1,0 +1,37 @@
+<RCC>
+    <qresource prefix="/sprites/tank">
+        <file>sprites/tank/deadTankSkin.png</file>
+        <file>sprites/tank/enemyTankSkin.png</file>
+        <file>sprites/tank/mainTankSkin.png</file>
+        <file>sprites/tank/botFastTank.png</file>
+        <file>sprites/tank/botHeavyTank.png</file>
+        <file>sprites/tank/botTank.png</file>
+    </qresource>
+    <qresource prefix="/sprites/shell">
+        <file>sprites/shell/shellSprite.png</file>
+    </qresource>
+    <qresource prefix="/sprites/brick">
+        <file>sprites/brick/brickMainSkin.png</file>
+        <file>sprites/brick/leavesMainSkin.png</file>
+        <file>sprites/brick/wallMainSkin.png</file>
+        <file>sprites/brick/waterMainSkin.png</file>
+        <file>sprites/brick/brickMainSkinV.png</file>
+        <file>sprites/brick/wallMainSkinV.png</file>
+    </qresource>
+    <qresource prefix="/sprites/base">
+        <file>sprites/base/myBaseMainSkin.png</file>
+        <file>sprites/base/enemyBaseMainSkin.png</file>
+    </qresource>
+    <qresource prefix="/sprites/another">
+        <file>sprites/another/emptySkin.png</file>
+        <file>sprites/another/roller.png</file>
+    </qresource>
+    <qresource prefix="/maps">
+        <file>maps/map1.save</file>
+        <file>maps/map2.save</file>
+        <file>maps/map3.save</file>
+        <file>maps/map4.save</file>
+        <file>maps/map5.save</file>
+        <file>maps/mappvp.save</file>
+    </qresource>
+</RCC>
